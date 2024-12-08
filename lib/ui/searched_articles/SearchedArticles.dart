@@ -117,7 +117,7 @@ class _SearchedArticlesState extends State<SearchedArticles> {
     );
   }
 
-  // Update the search query and trigger the API call
+
   onPress(String word) {
     setState(() {
       searchQuery = word;  // Update the search query
